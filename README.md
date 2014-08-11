@@ -29,6 +29,8 @@ cobj.get(obj, 'b.c'); // 2
 cobj.get(obj, 'd'); // undefined
 ```
 
+Get a value, if not found, it will returns undefined.
+
 ### cobj.set(data, key, value);
 
 ```js
@@ -37,6 +39,8 @@ cobj.set(obj, 'a', 1); // obj.a -> 1
 cobj.set(obj, 'b.c', 2); // obj.b.c -> 2
 cobj.set(obj, 'b.d', 3); // obj.b.c -> 2, obj.b.c -> 3
 ```
+
+Set value.
 
 ### cobj.remove(data, key);
 
@@ -51,6 +55,8 @@ cobj.remove(obj, 'a'); // obj.a -> undefined
 cobj.remove(obj, 'b.c'); // obj.b.c -> undefined, obj.b -> {}
 cobj.remove(obj, 'd'); // do nothing
 ```
+
+Remove a value by key if found.
 
 ## License
 
