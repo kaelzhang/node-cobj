@@ -1,7 +1,7 @@
 {
   "name": "cobj",
   "version": "0.1.0",
-  "description": "cobj",
+  "description": "Utilities to manage cascading objects.",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec ./test/*.js"
@@ -11,12 +11,15 @@
     "url": "git://github.com/kaelzhang/node-cobj.git"
   },
   "keywords": [
-    "cobj"
+    "cobj",
+    "cascading",
+    "object",
+    "utilities"
   ],
   "engines": {
     "node": ">=0.10.0"
   },
-  "author": "kaelzhang",
+  "author": "Kael",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kaelzhang/node-cobj/issues"
