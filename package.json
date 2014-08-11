@@ -27,5 +27,8 @@
   "devDependencies": {
     "mocha": "*",
     "chai": "*"
+  },
+  "dependencies": {
+    "mix2": "^0.1.6"
   }
 }
